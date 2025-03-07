@@ -38,7 +38,7 @@ app.listen(port, () => {
 });
 
 const statusMessages = ["⛔️ Working in MZA", "🎨 Serving in MZA"];
-const statusTypes = [ 'dnd', 'idle'];
+const statusTypes = [ 'dnd'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
 
